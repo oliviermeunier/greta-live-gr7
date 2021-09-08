@@ -1,0 +1,58 @@
+/* ***************************************************************************************
+	LAYOUT GLOBAL Objectifs et supports
+  Voir markdown.css pour rendu HTML <- MD
+******************************************************************************************* */
+body {
+	position: relative;
+	min-height : 100vh;
+	display : flex;
+	flex-direction: column;
+}
+
+body > * {
+	order : 3;
+}
+
+.banner,
+body > header {
+	order : 1;
+}
+
+.resource-overlay {
+	position: fixed;
+	display:none;
+	background:hsla(0,0%,100%,.75);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: auto;
+}
+
+.resources {
+	max-width: 1200px;
+	margin:50px auto;
+}
+
+.resource-overlay.is-open {
+	display:block;
+	padding : 2em;
+}
+
+.resources-toggle {
+	position: fixed;
+	width:50px;
+	top : 1em; 
+	right : 1.5em;
+	cursor: pointer;
+}
+
+.resrouce-overlay-close-button {
+	cursor: pointer;
+	position: fixed;
+	top : 1.5em; 
+	right : 6em;
+	width: 25px;
+	z-index: 999999;
+}
