@@ -1,0 +1,38 @@
+#list-icons
+{
+    max-width: 500px;
+    list-style-type: none;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#list-icons li
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    width:100px;
+    height:100px;
+}
+
+.red
+{
+    color: crimson;
+}
+
+.blue
+{
+    color: royalblue;
+}
+
+.green
+{
+    color: olivedrab;
+}
+
+.orange {
+    color: orange;
+}

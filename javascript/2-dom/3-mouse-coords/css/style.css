@@ -1,0 +1,20 @@
+/* ******************************************************* */
+/* ************** Les éléments du caroussel ************** */
+/* ******************************************************* */
+* {
+  box-sizing: border-box;
+}
+
+#playground {
+  width: 500px;
+  height: 500px;
+  border: 2px solid darkgray;
+  margin-top:150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mouse-coords {
+  padding: 0 20px;
+  font-size:2rem;
+}

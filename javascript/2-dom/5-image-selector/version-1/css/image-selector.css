@@ -1,0 +1,57 @@
+.project header {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#total
+{
+    font-size: 2rem;
+}
+
+#total em
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.photo-list
+{
+    /* structure */
+    margin: 0 auto;
+    padding-left: 0;
+    width: 90%;
+    max-width: 1200px;
+
+
+    /* presentation */
+    list-style-type: none;
+}
+.photo-list li
+{
+    /* structure */
+    display: inline-block;
+    max-width: 21%;
+    margin: 1rem;
+    padding: 1rem;
+
+    /* presentation */
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.photo-list li img {
+    border-radius: 15px;
+    width: 100%;
+    display: block; /* https://www.alsacreations.com/astuce/lire/52-espaces-sous-les-images.html */
+}
+
+.photo-list li:hover
+{
+    background-color: silver;
+}
+
+.photo-list li.selected
+{
+    background-color: forestgreen;
+}
