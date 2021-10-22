@@ -68,3 +68,7 @@ dt, dd {
 .hidden {
     display: none;
 }
+
+#search {
+    width: calc(100% - 18px);
+}
